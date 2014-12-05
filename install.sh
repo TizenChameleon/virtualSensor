@@ -1,6 +1,6 @@
 #!/bin/bash
-KERNEL_MODULE_FILE=virtual_homekey.ko
-SERVICE_FILE=load-virtual-homekey.service
+KERNEL_MODULE_FILE=oduino_sensor.ko
+SERVICE_FILE=load-oduino-sensor.service
 
 PATH_SYSTEMD=/usr/lib/systemd
 

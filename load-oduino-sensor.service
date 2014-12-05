@@ -1,9 +1,9 @@
 [Unit]
-Description=Load virtual homekey driver kernel module
+Description=Load oduino sensor driver kernel module
 Before=remote-key-framework.service
 
 [Service]
-ExecStart=/sbin/insmod /data/virtual_homekey.ko
+ExecStart=/sbin/insmod /data/oduino_sensor.ko
 Type=oneshot
 
 [Install]

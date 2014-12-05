@@ -1,4 +1,4 @@
-obj-m += virtual_homekey.o
+obj-m += oduino_sensor.o
 PWD := $(shell pwd)
 
 CC := $(CROSS_COMPILE)gcc

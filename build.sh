@@ -1,5 +1,5 @@
 #!/bin/bash
 export ARCH=arm
-export CROSS_COMPILE=/opt/arm-linux-gnueabihf-4.7/bin/arm-linux-gnueabihf-
-export KDIR=/home/redcarrottt/repository/tizen/linux-3.10
+export CROSS_COMPILE=arm-linux-gnueabi-
+export KDIR=/home/pdaejun/linux-3.10
 make
